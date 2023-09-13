@@ -17,12 +17,24 @@
     a {
     font-family:helvetica, roboto; color:white; font-size:32px;
     }
+    
+  </style>
 
-    body {
-    background-color:#0d0d0d; text-align:left;
+  <script>
+
+function random_bg_color() {
+    var x = Math.floor(Math.random() * 48);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+ console.log(bgColor);
+  
+    document.body.style.background = bgColor;
     }
 
-  </style>
+random_bg_color();
+
+</script>
 
   <h1>Weston Obermeyer</h1><br>
   <p>are you a robot yes or no</p>
