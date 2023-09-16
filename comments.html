@@ -37,7 +37,7 @@ body {
     }
 
     p {
-    color:white; font-family:helvetica, roboto; font-size:32px;
+    font-size:16px;
     }
 
     a {
@@ -62,19 +62,16 @@ body {
 
 <div class="center">
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-    
-        <div class="fcf-form-group">
-            <label style="color:white"; for="Message" class="fcf-label">comment or question:</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+  <form action="mailto:muskieclark@gmail.com" method="post" enctype="text/plain">
+    comment/question:<br>
+    <input type="text" name="comment or question"><br>
+    visibility (private/public):<br>
+    <input type="text" name="visibility"> <input type="submit" value="comment">
+  </form>
+  
         </div>
 
-      <h1>other people's comments and questions</h1>
+      <p style="font-size:32px; color:#A9D9FF; color:white; font-family:helvetica, roboto">other people's comments and questions</p>
       <p>May 5, 2023<br>what time is ti</p>
 
 </div>
