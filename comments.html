@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weston Obermeyer</title>
+</head>
+<body>
+  <style>
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+    
+body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #34495e;
+}
+    
+    h1 {
+    color:white; text-decoration:none; font-size:64px;
+    }
+
+    p {
+    color:white; font-family:helvetica, roboto; font-size:32px;
+    }
+
+    a {
+    text-decoration:none; color:#FFA9FB; font-size:32px;
+    }
+
+    body {
+    background-color:#07141A; text-align:center;
+    }
+
+    .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  </style>
+
+</body>
+</html>
+
+<div class="center">
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+    
+        <div class="fcf-form-group">
+            <label style="color:white"; for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+
+</div>
+
+</body>
+</html>
