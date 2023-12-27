@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weston Obermeyer</title>
+</head>
+<body>
+  <style>
+
+body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+}
+    
+    h1 {
+    color:white; text-decoration:none;
+    }
+
+    p {
+    font-family:helvetica, roboto; color:white;
+    }
+
+    a {
+    text-decoration:none; color:#A9FFE6;
+    }
+
+    body {
+    background-color:#07141A;
+    }
+
+  </style>
+  <a><br></a>
+  <a href="LibertyRecords-WindyPoint.html">Windy Point</a><br><br><br><br>
+
+  <a href="LibertyRecords-LiliesoftheValley.html">Lilies of the Valley</a><br><br><br><br>
+
+  <a href="LibertyRecords-Semicolon.html">;</a><br><br><br><br>
+
+  <a href="LibertyRecords-Successor.html">Successor</a><br><br><br><br>
+
+  <a href="LibertyRecords-AlongIndigoRoads.html">Along Indigo Roads</a><br><br><br><br>
+
+  <a href="LibertyRecords-Exclaves.html">Exclaves</a><br><br><br><br>
+
+  <a href="LibertyRecords-MoonSong.html">Moon Song</a><br><br><br><br>
+</body>
+</html>
