@@ -12,15 +12,16 @@
 
 
     p {
-    color:white; font-family:helvetica, roboto; font-size:32px;
+    color: white; font-family:helvetica, roboto; font-size:32px; text-align: center; display: inline-block;
+
     }
 
     a {
-    text-decoration:none; color:#ffe063; font-size:32px;
+    text-decoration:none; font-size:56px; text-align: center;
     }
 
     body {
-    background-color:#07141A; text-align:center;
+    background-color:#07141A;
     }
 
     .center {
@@ -30,25 +31,38 @@
   transform: translate(-50%, -50%);
 }
 
-  </style>
+.bottomleft {position: fixed; bottom: 200px; left: 400px;}
 
-  
+.bottomright {position: fixed; bottom: 200px; right: 400px;}
 
-<div class="center">
+.topleft {position: fixed; top: 200px; left: 400px;}
 
-            <marquee behavior="alternate" scrollamount="2" width="50%"><a href="">Spotify</a><br><br><br></marquee>
-<br>
-        <marquee behavior="alternate" scrollamount="10" width="50%"><a href="https://www.youtube.com/channel/UC_LDOv7FCAjXbtvIHF_4-Tg";>YouTube</a></marquee>
-  
-<p style="font-size:56px";>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;floating links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+.topright {position: fixed; top: 200px; right: 400px;}
 
-        <marquee behavior="alternate" scrollamount="8" width="50%"><a href="https://www.instagram.com/westonobermeyer/">Instagram</a><br><br><br></marquee>
-<br>
-        <marquee behavior="alternate" scrollamount="4" width="50%"><a href="https://twitter.com/Obermeyer_W">Twittttter</a></marquee>
+ </style>
 
+<div class="bottomleft">
+<a style="color:#FFA9A9;" href="https://www.youtube.com/channel/UC_LDOv7FCAjXbtvIHF_4-Tg";>youtube</a>
+  </div>
+
+<div class="bottomright">
+<a style="color:#FFA9FB;" href="https://www.instagram.com/westonobermeyer/">instagram</a>
+  </div>
+
+<div class="topleft">
+<a style="color:#A9FFC8;" href="john.com">spotify</a><br><br><br>
 </div>
 
-  <a href='more.html' style='font-family:helvetica, roboto; position: absolute; bottom: 56px; left: 56px; color:white;'>more</a><br>
+<div class="topright">
+<a style="color:#A9D9FF;" href="https://twitter.com/Obermeyer_W">twittttter</a>
+  </div>
+
+<div class="center">
+<p style="font-size: 64px;">Weston Obermeyer</p>
+</div>
+
+  <a href='more.html' style='font-family:helvetica, roboto; position: fixed; bottom: 56px; left: 56px; color:white; font-size: 32px;'>more</a><br>
+    <p style="font-family:helvetica, roboto; position: absolute; bottom: 16px; left: 56px; color:white; font-size: 12px; text-align: left;">v1.0.0</a><br>
 
 </body>
 </html>
