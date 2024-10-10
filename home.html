@@ -46,22 +46,8 @@
 .topright {
   position: fixed; top: 16%; right: 24%;
 }
-    
-var texts = [
-   "is where the web is",
-   "no trespassing",
-   "is where the house is",
-   "mi casa es tu casa",
-   "less",
-   "r simpson",
-   "home",
-];
 
-document.getElementById('randomText').value = texts[Math.floor(Math.random()*texts.length)];
-<input type="text" id="randomText">
-
-
- </style>
+</style>
 
 <div class="bottomright">
 <a href="https://twitter.com/Obermeyer_W"><img src="images/Twitter.png" style="width: 54px; height: 54px"></a>
@@ -74,7 +60,7 @@ document.getElementById('randomText').value = texts[Math.floor(Math.random()*tex
 </div>
 
 <div class="center">
-<p style="font-size: 64px;">home&nbsp;</p><input type="text" id="randomText">
+<p style="font-size: 64px;">home&nbsp;</p><p style="font-size: 32px; color: white;">?php echo $randomText; ?</p>
 
 </div>
 
