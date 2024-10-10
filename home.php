@@ -1,0 +1,83 @@
+<?php
+
+$texts = [ 
+    "Hello, world!", 
+    "Welcome to my website!", 
+    "Enjoy your stay!", 
+    "Random quote of the day!", 
+    "Have a great day!" 
+];
+
+$randomText = $texts[array_rand($texts)]; 
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weston Obermeyer</title>
+</head>
+<body>
+  <style>
+    
+    h1 {
+    color:white; text-decoration:none; font-size:64px;
+    }
+
+
+    p {
+    color: white; font-family:helvetica, roboto; font-size:32px; text-align: center; display: inline-block;
+
+    }
+
+    a {
+    text-decoration:none; font-size:48px; text-align: center;
+    }
+
+    body {
+    background-color:#07141A;
+    }
+
+    .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomleft {
+  position: fixed; bottom: 16%; left: 24%;
+}
+
+.bottomright {
+  position: fixed; bottom: 4%; right:4%;
+}
+
+.topleft {
+  position: fixed; top: 16%; left: 24%;
+}
+
+.topright {
+  position: fixed; top: 16%; right: 24%;
+}
+
+</style>
+
+<div class="bottomright">
+<a href="https://twitter.com/Obermeyer_W"><img src="images/Twitter.png" style="width: 54px; height: 54px"></a>
+
+<a href="https://www.instagram.com/westonobermeyer/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Instagram.png" style="width: 54px; height: 54px"></a>
+
+<a href="john.com">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Spotify.png" style="width: 54px; height: 54px"></a>
+
+<a href="https://www.youtube.com/channel/UC_LDOv7FCAjXbtvIHF_4-Tg">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Youtube.png" style="width: 54px; height: 54px"></a>
+</div>
+
+<div class="center">
+<p style="font-size: 64px;">home&nbsp;</p><?php echo $randomText; ?>
+
+</div>
+
+<a href='more.html' style='font-family:helvetica, roboto; position: fixed; bottom: 56px; left: 56px; color:white; font-size: 24px;'>more</a><br>
+
+</body>
+</html>
