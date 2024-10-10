@@ -46,28 +46,36 @@
 .topright {
   position: fixed; top: 16%; right: 24%;
 }
+    
+var texts = [
+   "is where the web is",
+   "no trespassing",
+   "is where the house is",
+   "mi casa es tu casa",
+   "less",
+   "r simpson",
+   "home",
+];
+
+document.getElementById('randomText').value = texts[Math.floor(Math.random()*texts.length)];
+<input type="text" id="randomText">
+
 
  </style>
 
 <div class="bottomright">
 <a href="https://twitter.com/Obermeyer_W"><img src="images/Twitter.png" style="width: 54px; height: 54px"></a>
 
-
-
 <a href="https://www.instagram.com/westonobermeyer/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Instagram.png" style="width: 54px; height: 54px"></a>
-
 
 <a href="john.com">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Spotify.png" style="width: 54px; height: 54px"></a>
 
-
-
 <a href="https://www.youtube.com/channel/UC_LDOv7FCAjXbtvIHF_4-Tg">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Youtube.png" style="width: 54px; height: 54px"></a>
-
 </div>
 
-
 <div class="center">
-<p style="font-size: 64px;">home&nbsp;</p><p style="font-size: 24px;">is where the web is</p>
+<p style="font-size: 64px;">home&nbsp;</p><input type="text" id="randomText" style="font-size: 24px; color: white; font-family:helvetica, roboto; text-align: center; display: inline-block;">
+
 </div>
 
 <a href='more.html' style='font-family:helvetica, roboto; position: fixed; bottom: 56px; left: 56px; color:white; font-size: 24px;'>more</a><br>
