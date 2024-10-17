@@ -39,7 +39,7 @@
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 
 <form
-  action="https://formspree.io/f/mwpkkyjd" target="dummyframe" onsubmit="this.submit(); this.reset(); return false;" method="POST"
+  action="https://formspree.io/f/mwpkkyjd" target="dummyframe" onsubmit="this.submit(); this.reset(); return false; setTimeout(function () { window.location.reload(); }, 10)" method="POST"
 >
   <label>
     make an addition:<br>
