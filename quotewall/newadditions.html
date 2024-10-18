@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>More</title>
-</head>
 <body>
   <style>
-    
-    h1 {
-    color:white; text-decoration:none; font-size:64px;
+
+    body {
+    background-color:#141424;
+    }
+
+        div {
+    padding: 48px;
+    font-family:helvetica, roboto;
     }
 
     p {
-    font-family:helvetica, roboto; color:white; font-size:24px;
+    color: white;
+    font-family:helvetica, roboto;
     }
 
-    a {
-    text-decoration:none; color:#A9FFE6; font-size:48px;
+      .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+        label {
+    color: white;
+    font-family:helvetica, roboto;
     }
 
-    body {
-    background-color:#07141A;
-    }
-
-    .bottomleft {
-    position: fixed; bottom: 4%; left: 4%;
-    }
-
-    .bottomright {
-    position: fixed; bottom: 4%; right:4%;
-    }
-
-    .center {
-    text-align: center;
-    margin: 64px
-
+.topright {
+position: fixed; top: 8%; right: 20%;
+}
+    
   </style>
-
-  <div class="center">
-
-<a style="color:#A9D9FF" href="contact.html";>(1-800) contacts</a><br><br><br>
   
-<a style="color:#FFE9A9" href="lyrics.html";>lyrics</a><br><br><br>
-  
-<a style="color:#FFA9FB" href="music.html";>music</a><br><br><br>
-  
-<a style="color:#A9FFC8" href="about.html";>about</a><br><br><br>
-  
-<a style="color:#A9A9FF" href="improv.html";>improv</a><br><br><br>
-  
-<a style="color:#FFA9A9" href="journal.html";>journal</a><br><br><br>
+<div class="grid-container">
+  <div class="grid-item">“Be yourself; everyone else is already taken.”<br>-oscar wilde</div>
+  <div class="grid-item">“I say there is more stupidity than hydrogen, and that is the basic building block of the universe.”<br>-frank zappa</div>
+  <div class="grid-item">"It's so hard to remember what you're doing until it's done."<br>bill wurtz</div>  
+  <div class="grid-item">"Music so wishes to be heard that it sometimes calls on unlikely characters to give it voice."<br>-robert fripp</div>
+  <div class="grid-item">"It is never right to play ragtime fast."<br>-scott joplin</div>
+  <div class="grid-item">"The sun is a deadly lazer."<br>-bill wurtz</div>  
 </div>
-
-<a style="font-family:helvetica, roboto; position: fixed; bottom: 56px; left: 56px; color:white; font-size: 24px" href="home.html">back</a>
-<a style="font-family:helvetica, roboto; position: fixed; bottom: 56px; right: 56px; color:white; font-size: 24px" href="other.html">other</a>
 
 </body>
 </html>
