@@ -47,6 +47,28 @@
   position: fixed; top: 16%; right: 24%;
 }
 
+    	.footer-content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-content span {
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		line-height: 1.5em;
+		font-family: "Josefin Sans";
+	}
+
+@media screen and (max-width: 768px) {
+	.footer-content span {
+		font-size: 16px;
+		text-align: center;
+	}
+}
+    }
+
  </style>
 
 <div class="bottomleft">
@@ -67,6 +89,19 @@
 
 
 <div class="center">
+
+<script>
+	// Define an array of possible content
+	var content = ['welcome to the webston', 'is where the web is', 'sweet home', '(house)', 'since 2024', 'also try billwurtz.com'];
+
+	// Pick a random item from the array
+	var randomIndex = Math.floor(Math.random() * content.length);
+	var randomContent = content[randomIndex];
+
+	// Insert the random content into the page
+	document.querySelector('.random-message span').textContent = randomContent;
+</script>
+
 <p style="font-size: 64px; font-family:helvetica, roboto;">home&nbsp;</p><p style="font-size: 24px;">welcome to the webston</p>
 </div>
 
