@@ -20,9 +20,10 @@
       .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  position: fixed; top: 8%; left: 20px;
+  padding: 10px;
 }
 .grid-item {
+  padding: 20px;
   text-align: center;
   color: white;
 }
@@ -32,11 +33,21 @@
     font-family:helvetica, roboto;
     }
 
+.topright {
+position: fixed; top: 8%; right: 20%;
+}
+    
   </style>
+
+<div class="topright">
+  <a href="quotewall/disclaimer.html" style="color:#FFE9A9">disclaimer</a><br><br>
+  <a href="quotewall/rules.html" style="color:#FFE9A9">rules / guidelines</a>
+</div>
   
 <div class="grid-container">
 <div class="grid-item">"Put your hand on a hot stove for a minute"<br>-albert einstein</div>
-</div>
   
+</div>
+
 </body>
 </html>
