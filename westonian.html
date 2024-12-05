@@ -30,50 +30,52 @@
   transform: translate(-50%, -50%);
 }
 
-    .column {
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
   float: left;
   width: 25%;
   padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
-    .row:after {
+/* Clear floats after the columns */
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-  * {
-  box-sizing: border-box;
-}
-
 </style>
-    
-<iframe src="http://lingojam.com/embed/Westonian-EnglishWordLookup" style="width:500px; height:200px;"></iframe>
+
+  <iframe src="http://lingojam.com/embed/Westonian-EnglishWordLookup" style="width:500px; height:200px;"></iframe>
 <br>
 <p>note: this is not really a translator as much as it is a tool for searching individual
 <br>unmodified words (meaning words without a past or present tense, or suffixes / prefixes).
 <br>you can use the charts off to the side to help you construct complete words</p>
-      
+
+<h2>Four Equal Columns</h2>
+
 <div class="row">
-  <div class="column" style="text-align: right;">
-    <p>Pronouns (Isnochnen)</p><br><br>
-    <p>I / Me / Mine</p>
-  </div>
-  <div class="column" style="text-align: left;">
-    <p></p><br><br>
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
     <p>Some text..</p>
   </div>
-  <div class="column" style="text-align: right;">
-    <p>Prefixes / Suffixes (Prefräsen am Ajerfräsen)</p><br><br>
-    <p>Some text..</p><br><br>
-    <p></p>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
   </div>
-</div>
-    <div class="column" style="text-align: left;">
-    <p>Column 4</p><br><br>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+    <h2>Column 4</h2>
     <p>Some text..</p>
   </div>
 </div>
-    
+      
 </body>
 </html>
