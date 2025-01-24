@@ -21,11 +21,51 @@
     font-family:helvetica, roboto;
     }
 
+          .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+        label {
+    color: white;
+    font-family:helvetica, roboto;
+    }
+
 </style>
 
 <div>
 <p>dictionary search</p>
 <iframe src="http://lingojam.com/embed/EnglishtoWestonian" style="width:512px; height:256px;"></iframe>
+<p>submit a </p>
+
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+    
+<form action="https://formsubmit.co/fea498960f3e4fc9b5c929edafe5be3a" method="POST" target="dummyframe" onsubmit="this.submit(); this.reset(); return false">
+
+  <!-- honeypot -->
+  <input type="text" name="_honey" style="display: none">
+
+  <!-- no captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <label>
+    english:<br>
+    <textarea name="english"></textarea><br><br>
+  </label>
+  <label>
+    westonian translation:<br>
+    <input type="text" name="westonian"><br><br>
+  </label>
+  <label>
+  <button type="submit">submit</button>
+  </label>
+</form><br><br>
 </div>
   
 </body>
