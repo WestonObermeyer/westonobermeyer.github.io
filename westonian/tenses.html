@@ -20,22 +20,64 @@
     color: white;
     font-family: helvetica, roboto;
     }
+
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     
   </style>
 
-<div>
+<div class="row" style="padding: 48px;">
   
-<p>
-t	Past Simple - "I worked"<br>
-ts	Past Continuous -	"I was working"<br>
-tsk	Past Perfect	- "I had worked"<br>
-s	Present Simple	- "I work"<br>
-st	Present Continuous -	"I am working"<br>
-stk	Present Perfect -	"I have worked"<br>
-k	Future Simple -	"I will work"<br>
-ks	Future Continuous -	"I will be working"<br>
-kst	Future Perfect -	"I will have worked"<br>
-</p>
+  <div class="column" style="width: 5%;">
+    <p>verbe ending / suffix</p>
+    <p>t
+    <br>ts
+    <br>tsk
+    <br>s
+    <br>st
+    <br>stk
+    <br>k
+    <br>ks
+    <br>kst</p>
+  </div>
+  
+  <div class="column" style="width: 25%;">
+<p>tense</p>
+<p>past simple
+<br>past continuous
+<br>past perfect
+<br>present simple
+<br>present continuous
+<br>present perfect
+<br>future simple
+<br>future continuous
+<br>future perfect</p>
+  </div>
+
+<div style="padding: 48px;">
+  <p>example (in english)
+    <br>"i worked"
+    <br>"i was working"
+    <br>"i had worked"
+    <br>"i work"
+    <br>"i am working"
+    <br>"i have worked"
+    <br>"i will work"
+    <br>"i will be working"
+    <br>"i will have worked"
+  </p>
+
 </div>
   
 </body>
