@@ -10,6 +10,10 @@
     text-decoration:none; color:#A9FFE6; font-size:48px;
     }
 
+    body {
+    background-color: #020c14;
+    }
+
     .bottomleft {
     position: fixed; bottom: 4%; left: 4%;
     }
