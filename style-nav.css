@@ -10,11 +10,6 @@
     text-decoration:none; color:#A9FFE6; font-size:48px;
     }
 
-    body {
-    background-image: url('images/mountainsbackground-blackopacity90.jpg');
-    background-repeat: no-repeat;
-    }
-
     .bottomleft {
     position: fixed; bottom: 4%; left: 4%;
     }
